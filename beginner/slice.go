@@ -10,10 +10,10 @@ func main() {
 	var str string = "Lorem ipsum dolor sit amet"
 	fmt.Println(str[6:11])
 
-	//Make a new slice using make
-	s := make([]string, 3)
+	// Creating a slice of string
+	s := []string{"abc", "def"}
 
-	//Appending elements to existing slice
-	s = append(s, "abc")
+	// Appending elements to existing slice
+	s = append(s, "ghi")
 	fmt.Println(s)
 }
